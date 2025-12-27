@@ -4,6 +4,7 @@
 int main() {
 int key, n, i;
 int arr[100];
+int found = 0;  
 
 clrscr();
 
@@ -21,13 +22,15 @@ scanf("%d", &key);
 for(i = 0; i < n; i++) {
 if(arr[i] == key) {
 printf("The entered key %d is present in the array at position %d", key, i);
-getch();
-return 0;
+found = 1;
+break;
 }
 }
 
+if(!found) {
 printf("The entered key %d is not found in array", key);
+}
+
 getch();
 return 0;
-
 }
