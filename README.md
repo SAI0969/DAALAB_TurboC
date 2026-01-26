@@ -1,10 +1,10 @@
 # DAALAB_TurboC
 
 
-#Week-1
+# Week-1
 Bubble sort
 Linear search 
-#Week-2
+# Week-2
 Max and min(non-recurssion)
 Insertion sort(non-recurssion)
 Contains Duplicate
